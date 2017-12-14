@@ -1,0 +1,72 @@
+/* This is the first style sheet used for the homework assignment in week 3 */
+header {
+  width:100%;
+  margin:auto;
+  background-color:dimgray;
+}
+
+nav {
+  background-color: #35404D;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+nav a:hover {
+  color:#8BB7EB;
+  text-decoration: none;
+}
+
+img {
+  width:100px;
+  height:auto;
+  border-color: #33537A;
+  padding: 10px;
+}
+
+/* insert floating for images if covered in class, read about clearing floats and clear fix. */
+
+body {
+  font-family: "Arial", "Verdana", sans-serif;
+  background-color: lightgrey;
+}
+
+article {
+  background-color: #98C1F2;
+  width: 75%;
+  margin:auto;
+}
+
+/* removed background-blend-mode - not supported by IE */
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #6B8099;
+  text-decoration: none;
+}
+
+h1 {
+  color: #8BB7EB;
+  text-align: center;
+}
+
+h2 {
+  color: #33537A
+}
+
+h3 {
+  color: #33537A
+}
+
+p {
+  color: #33537A
+}
+
+footer {
+  display:block
+}

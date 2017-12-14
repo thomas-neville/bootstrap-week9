@@ -1,0 +1,240 @@
+/* This is the stylesheet for Week 5's assignment */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Meyer Reset */
+
+head {
+  padding: 1em;
+}
+
+body {
+  margin: 0 0 0 0;
+  max-width: 100%;
+  background-color: dimgray;
+  text-align: left;
+  font-family: 'Barlow Condensed', sans-serif;
+  clear: both;
+}
+
+header {
+  padding-bottom: 5em;
+  background-color: rgba(95, 176, 255, 0.5);
+}
+
+header img {
+  margin: .5em 15em .5em;
+}
+
+#navbar {
+  background-color: rgba(89, 232, 155, 0.5);
+  color: #ffffff;
+  font-weight: bold;
+  margin: 1em 0 1em;
+  float: left;
+  width: 100%;
+}
+
+#navbar ul {
+  background-color: rgba(89, 232, 155, 0.5);
+  width: 100%;
+  font-size: 1.5em;
+}
+
+#navbar ul li {
+  float: left;
+  padding: .5em 0 .5em;
+  text-align: center; 
+  border-bottom: 1em solid 59E89B;
+  width: 20%;
+  
+}
+
+#navbar li a {
+  display: block;
+  padding: 0 0;
+  text-decoration: none;
+  color: white;
+}
+
+#navbar li:hover {
+  background-color: #5EF5A4;
+}
+
+article {
+  padding: 1em;
+  color: white;
+  
+}
+
+section {
+  padding: 1em;
+  color: white;
+}
+
+section a {
+  text-decoration: none;
+  color: #D1FF49;
+}
+
+section ul {
+  padding-left: 3em;
+}
+
+section ul li {
+  text-indent: .25em;
+}
+
+table {
+  margin: 2em;
+  border: 2px solid #2F587F;
+}
+
+table th {
+  font-size: 1.5em;
+  text-align: center;
+  border: 2px solid #2F587F;
+}
+
+th, td {
+  padding: 1em;
+  font-size: 1em;
+  text-align: left;
+  border-left: 1px solid #2F587F;
+  border-right: 1px solid #2F587F;  
+}
+
+td:hover {
+  background-color: rgba(71, 132, 191, 0.7)
+}
+
+aside {
+  clear: both;
+  padding: 1em;
+  color: white;
+}
+
+aside a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  padding-bottom: 2em;
+  background-color: rgba(95, 176, 255, 0.5); 
+}
+
+section img {
+  padding: 1em 2em;
+  max-height: 10em;
+  border-color: rgba(89, 232, 155, 0.8);
+  border-width: .5em;
+}
+
+section p {
+  clear: both;
+  padding: 1em;
+  color: white;
+}
+
+#main a {
+  padding: 1em;
+}
+
+#main p {
+  margin-bottom: 2em;
+}
+
+p {
+  padding: 1em;
+  color: white;
+}
+
+blockquote {
+  padding: 1em;
+  color: white;
+}
+
+table {
+  padding: 1em;
+  color: white;
+}
+
+h1 {
+  font-family: 'Barlow', sans-serif;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Barlow', sans-serif;
+  color: white;
+  padding: 1em;
+}
+
+h2 a {
+  text-decoration: none;
+  color: white;
+}
+
+h3 {
+  font-family: 'Barlow', sans-serif;
+  color: white;
+  padding: 1em;
+}
+
+h3 a {
+  text-decoration: none;
+  color: white;
+}
+
+h4 {
+  font-family: 'Barlow', sans-serif;
+  color: white;
+  padding: 1em 0 0 1em;
+}
